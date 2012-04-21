@@ -38,6 +38,7 @@ a:hover {
 #nav {
 	margin: 0 10px 0 0;
 	float: left;
+	
   /* CHALLENGE 3: how could you get this to float to the left side of the screen? */
 }
 
