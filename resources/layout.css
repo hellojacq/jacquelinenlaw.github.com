@@ -6,6 +6,7 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	background: #f4f4f4;
+	
 }
 
 h1, h2, h3 {
@@ -13,7 +14,7 @@ h1, h2, h3 {
 }
 
 p {
-	line-height: 24px;
+	line-height: 26px;
 	color: #555;
 }
 
@@ -38,18 +39,13 @@ a:hover {
 #nav {
 	margin: 0 10px 0 0;
 	float: left;
-	
-  /* CHALLENGE 3: how could you get this to float to the left side of the screen? */
-}
 
 #main {
 	width: 780px;
 	float: right;
 	margin: 0;
-	padding-left: 10px;
+	padding-left: 20px;
 	border-left: 2px dashed #cccccc;
-  /*  CHALLENGE 3: how could you get this to float to the left side of the screen? */
-  /* CHALLENGE 2: how could you give this element a one-pixel border down its left side? */
 }
 
 #copyright {
