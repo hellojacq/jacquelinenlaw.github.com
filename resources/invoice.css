@@ -1,3 +1,45 @@
 body {
-color: #f00;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: #404040;
+}
+
+h2, h3 {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+table th {
+	padding-top: 9px;
+	font-weight: bold;
+	vertical-align: middle;
+
+}
+
+table td.last, table th.last {
+	text-align: right;
+}	
+
+table td {
+	vertical-align: top;
+	border-top: 1px solid #DDD;
+}
+
+small, .small, small a, .small a {
+	line-height: 18px;
+}
+
+p {
+	line-height: 18px;
+	margin-bottom: 10px;
+}	
+
+.neutral {
+color: #999;
+
+.dashes {
+	border-top: 3px dashed #000000;
+	margin-top: 5px;
 }
