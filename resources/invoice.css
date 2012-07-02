@@ -38,8 +38,12 @@ p {
 
 .neutral {
 color: #999;
+}
 
-.dashes {
-	border-top: 3px dashed #000000;
-	margin-top: 5px;
+hr {
+	border : none;
+	border-top : dashed 1px #CCCCCC;
+	color : #FFFFFF;
+ 	background-color : #FFFFFF;
+	height : 1px;
 }
