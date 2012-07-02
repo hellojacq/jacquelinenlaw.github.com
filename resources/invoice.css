@@ -26,6 +26,20 @@ table td.last, table th.last {
 	text-align: right;
 }	
 
+.clearfix:before,
+.clearfix:after {
+	content:"";
+	display:table;
+}
+
+.clearfix:after {
+	clear:both;
+}
+
+.clearfix {
+	*zoom:1;
+}
+
 .pull-left {
 float: left;
 }
