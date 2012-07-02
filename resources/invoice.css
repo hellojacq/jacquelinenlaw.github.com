@@ -57,6 +57,11 @@ table td {
 	border-top: dashed 1px #CCCCCC;
 }
 
+td
+{
+text-align:center;
+}
+
 element.style {
 }
 
