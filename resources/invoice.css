@@ -26,6 +26,14 @@ table td.last, table th.last {
 	text-align: right;
 }	
 
+.pull-left {
+float: left;
+}
+
+.pull-right {
+float: right;
+}
+
 table td {
 	vertical-align: top;
 	border-top: 1px solid #DDD;
@@ -34,8 +42,9 @@ table td {
 element.style {
 }
 
-small, .small, small a, .small a {
-	line-height: 18px;
+.amount {
+background: #f6f6f6;
+padding: 10px;
 }
 
 p {
